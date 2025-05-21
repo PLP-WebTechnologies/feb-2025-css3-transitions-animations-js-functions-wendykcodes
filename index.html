@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Animations Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Animation Preferences</h1>
+        
+        <div class="preference-panel">
+            <div class="toggle-group">
+                <label for="animation-toggle">Enable Animations:</label>
+                <div class="toggle-switch">
+                    <input type="checkbox" id="animation-toggle" checked>
+                    <span class="slider"></span>
+                </div>
+            </div>
+            
+            <div class="color-picker">
+                <label for="theme-color">Choose Theme Color:</label>
+                <input type="color" id="theme-color" value="#4a6fa5">
+            </div>
+        </div>
+        
+        <div class="demo-area">
+            <button id="animate-btn" class="pulse">Click Me!</button>
+            <div id="animated-box" class="box"></div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Wendy Kalu
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
